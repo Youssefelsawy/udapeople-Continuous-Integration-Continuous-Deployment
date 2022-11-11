@@ -230,17 +230,19 @@ jobs:
 
   cloudfront-update:
     docker:
-      # Docker image here that supports AWS CLI
+      - image: cimg/node:13.8.0
     steps:
       # Checkout code from git
       - run:
           name: Install dependencies
           command: |
             # your code here
+            exit 1
       - run:
           name: Update cloudfront distribution
           command: |
             # your code here
+            exit 1
       # Here's where you will add some code to rollback on failure  
 
 cleanup:
