@@ -30,12 +30,6 @@ commands:
         default: ${CIRCLE_WORKFLOW_ID:0:7}    
     steps:
       - run:
-          name: Install AWS CLI V2 
-          command: |
-            curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-            unzip awscliv2.zip
-            sudo ./aws/install
-      - run:
           name: Destroy environments
           when: on_fail
           command: |
