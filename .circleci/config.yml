@@ -252,7 +252,7 @@ jobs:
       - restore_cache:
           keys: [frontend-deps]
       - run:
-          name: Install dependencies
+          name: Install dependencies 
           command: |
             cd frontend
             npm install
