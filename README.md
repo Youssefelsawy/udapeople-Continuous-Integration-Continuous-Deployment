@@ -46,7 +46,7 @@ In this project, you will prove your mastery of the following learning objective
   9. Successful cleanup job.
 ![SCREENSHOT09](https://user-images.githubusercontent.com/102738849/207100450-11ef2744-c8a7-4dfa-be19-7b9f2af74bc2.png)
 
-  10. Only deploy on pushed to `master` branch.
+  10. Evidence that the deploy jobs only happen on the master branch.
   ![SCREENSHOT10](https://user-images.githubusercontent.com/102738849/207100562-dc2e5dd2-b60a-414f-b14d-1303976e8e14.png)
 
   11. Provide a screenshot of a graph of your EC2 instance including available memory, available disk space, and CPU usage.
@@ -59,6 +59,20 @@ In this project, you will prove your mastery of the following learning objective
  
   13. all pipeline finished successfully
   ![Screenshot (206)](https://user-images.githubusercontent.com/102738849/207103155-bf9ae314-0a0f-4547-a051-c9d7cb3ca0bb.png)
+  
+  14. Evidence of deployed and functioning front-end application in CloudFront
+  ![URL03_SCREENSHOT](https://user-images.githubusercontent.com/102738849/207106186-55ba5ee6-0a3c-45a5-a2e7-699c9a59c792.png)
+  
+  15. Evidence of deployed and functioning front-end application in an S3 bucket
+  ![URL02_screenshot](https://user-images.githubusercontent.com/102738849/207105696-38eaaf1d-e96d-43d2-a5ed-fdbd4cb678bd.png)
+  
+  16.Evidence of healthy back-end application
+  ![URL04_SCREENSHOT](https://user-images.githubusercontent.com/102738849/207106885-2183dd7a-e8ca-40bb-b3be-5f0c60c8e318.png)
+
+  17. Evidence of Prometheus Server
+  ![URL05_SCREENSHOT](https://user-images.githubusercontent.com/102738849/207107215-ca4aea0f-fa26-4911-a80c-f242f0457606.png)
+
+
 
 
 
