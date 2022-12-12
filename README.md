@@ -1,8 +1,3 @@
-We are archiving this repository because we do not want learners to push personal development to the current repository. If you have any issues or suggestions to make, feel free to:
-- Utilize the https://knowledge.udacity.com/ forum to seek help on content-specific issues.
-- [Submit a support ticket](https://udacity.zendesk.com/hc/en-us/requests/new) along with the link to your forked repository. 
-- If you are an enterprise learner, please [Submit a support ticket here](https://udacityenterprise.zendesk.com/hc/en-us/requests/new?ticket_form_id=360000279131)
-
 ## Give your Application Auto-Deploy Superpowers
 
 In this project, you will prove your mastery of the following learning objectives:
@@ -11,44 +6,6 @@ In this project, you will prove your mastery of the following learning objective
 - Utilize Deployment Strategies to design and build CI/CD pipelines that support Continuous Delivery processes.
 - Utilize a configuration management tool to accomplish deployment to cloud-based servers.
 - Surface critical server errors for diagnosis using centralized structured logging.
-
-![Diagram of CI/CD Pipeline we will be building.](udapeople.png)
-
-### Instructions
-
-* [Selling CI/CD](instructions/0-selling-cicd.md)
-* [Getting Started](instructions/1-getting-started.md)
-* [Deploying Working, Trustworthy Software](instructions/2-deploying-trustworthy-code.md)
-* [Configuration Management](instructions/3-configuration-management.md)
-* [Turn Errors into Sirens](instructions/4-turn-errors-into-sirens.md)
-
-### Project Submission
-
-For your submission, please submit the following:
-
-- A text file named `urls.txt` including:
-  1. Public Url to GitHub repository (not private) [URL01]
-  1. Public URL for your S3 Bucket (aka, your green candidate front-end) [URL02]
-  1. Public URL for your CloudFront distribution (aka, your blue production front-end) [URL03]
-  1. Public URLs to deployed application back-end in EC2 [URL04]
-  1. Public URL to your Prometheus Server [URL05]
-- Your screenshots in JPG or PNG format, named using the screenshot number listed in the instructions. These screenshots should be included in your code repository in the root folder.
-  1. Job failed because of compile errors. [SCREENSHOT01]
-  1. Job failed because of unit tests. [SCREENSHOT02]
-  1. Job that failed because of vulnerable packages. [SCREENSHOT03]
-  1. An alert from one of your failed builds. [SCREENSHOT04]
-  1. Appropriate job failure for infrastructure creation. [SCREENSHOT05]
-  1. Appropriate job failure for the smoke test job. [SCREENSHOT06]
-  1. Successful rollback after a failed smoke test. [SCREENSHOT07]  
-  1. Successful promotion job. [SCREENSHOT08]
-  1. Successful cleanup job. [SCREENSHOT09]
-  1. Only deploy on pushed to `master` branch. [SCREENSHOT10]
-  1. Provide a screenshot of a graph of your EC2 instance including available memory, available disk space, and CPU usage. [SCREENSHOT11]
-  1. Provide a screenshot of an alert that was sent by Prometheus. [SCREENSHOT12]
-
-- Your presentation should be in PDF format named "presentation.pdf" and should be included in your code repository root folder. 
-
-Before you submit your project, please check your work against the project rubric. If you haven’t satisfied each criterion in the rubric, then revise your work so that you have met all the requirements. 
 
 ### Built With
 
@@ -59,6 +16,52 @@ Before you submit your project, please check your work against the project rubri
 - [Ansible](https://www.ansible.com/) - Configuration management tool
 - [Prometheus](https://prometheus.io/) - Monitoring tool
 
-### License
+### Proven Steps
 
-[License](LICENSE.md)
+  1. Job failed because of compile errors. 
+  ![SCREENSHOT01](https://user-images.githubusercontent.com/102738849/207097142-e0f653e0-1019-4877-ac12-abd65d54847b.png)
+ 
+  2. Job failed because of unit tests. 
+   ![SCREENSHOT02-Backend](https://user-images.githubusercontent.com/102738849/207097286-1ec9a516-d296-471c-b2aa-4f0cc0372407.png)
+
+  3. Job that failed because of vulnerable packages.
+  ![SCREENSHOT03- scan backend](https://user-images.githubusercontent.com/102738849/207097513-15d378e3-6806-4113-becb-e4f209fd5be9.png)
+
+  4. An alert from one of your failed builds. 
+  ![SCREENSHOT04](https://user-images.githubusercontent.com/102738849/207097632-4136ca34-ce6d-41bc-9731-3c2626ee151b.png)
+
+  5. Appropriate job failure for infrastructure creation. 
+ ![SCREENSHOT05](https://user-images.githubusercontent.com/102738849/207098226-fc9204dd-02f7-43bb-911c-f74ef52e58f1.png)
+
+  6. Appropriate job failure for the smoke test job. 
+ ![SCREENSHOT06](https://user-images.githubusercontent.com/102738849/207099566-0ac64da2-7e8b-4608-975a-8c20e95d802a.png)
+
+  7. Successful rollback after a failed smoke test.
+ ![SCREENSHOT07](https://user-images.githubusercontent.com/102738849/207100227-3b9f5167-08ce-49c3-964c-edd9b124bcb1.png)
+
+ 
+  8. Successful promotion job.
+ ![SCREENSHOT08](https://user-images.githubusercontent.com/102738849/207100324-46ac3049-3236-410a-8442-aeebfb543485.png)
+
+  9. Successful cleanup job.
+![SCREENSHOT09](https://user-images.githubusercontent.com/102738849/207100450-11ef2744-c8a7-4dfa-be19-7b9f2af74bc2.png)
+
+  10. Only deploy on pushed to `master` branch.
+  ![SCREENSHOT10](https://user-images.githubusercontent.com/102738849/207100562-dc2e5dd2-b60a-414f-b14d-1303976e8e14.png)
+
+  11. Provide a screenshot of a graph of your EC2 instance including available memory, available disk space, and CPU usage.
+![SCREENSHOT11-available disk space](https://user-images.githubusercontent.com/102738849/207100826-689f0303-5a69-48a2-a3dd-c4daa9a71b53.png)
+![SCREENSHOT11-available memory](https://user-images.githubusercontent.com/102738849/207100923-30e7f89d-c1c9-468e-b555-dc62b306b930.png)
+![SCREENSHOT11-CPU Usage](https://user-images.githubusercontent.com/102738849/207101002-e1772d59-67e7-4f1b-8e5c-8288c697f8c4.png)
+
+  12. Provide a screenshot of an alert that was sent by Prometheus.
+ ![SCREENSHOT12](https://user-images.githubusercontent.com/102738849/207101080-b20856a3-4cb3-4040-a745-732c74f3f7af.png)
+ 
+  13. all pipeline finished successfully
+  ![Screenshot (206)](https://user-images.githubusercontent.com/102738849/207103155-bf9ae314-0a0f-4547-a051-c9d7cb3ca0bb.png)
+
+
+
+
+
+
